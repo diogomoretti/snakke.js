@@ -1,6 +1,6 @@
 {
   "name": "snakke",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reading Position Indicator written in VanillaJS",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
+    "gulp-release-it": "^1.1.2",
     "gulp-standard": "^8.0.3",
     "run-sequence": "^1.2.2"
   }
