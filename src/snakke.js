@@ -27,7 +27,7 @@
     }
     blockScroll()
     setProgress()
-    setTimeout(allowScroll, 100)
+    setTimeout(allowScroll, 80)
   }
 
   function setProgress () {
