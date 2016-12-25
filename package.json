@@ -1,6 +1,6 @@
 {
   "name": "snakke",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reading Position Indicator written in VanillaJS",
   "main": "index.js",
   "scripts": {
