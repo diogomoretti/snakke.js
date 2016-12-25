@@ -1,0 +1,12 @@
+body {
+  height: 4000px;
+}
+
+.snakke-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: green;
+  transition: width .3s ease;
+}
