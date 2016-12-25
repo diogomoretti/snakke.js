@@ -3,7 +3,6 @@ const standard = require('gulp-standard')
 const connect = require('gulp-connect')
 const runSequence = require('run-sequence')
 const minify = require('gulp-minify')
-require('gulp-release-it')(gulp)
 
 gulp.task('connect', () => {
   connect.server({
