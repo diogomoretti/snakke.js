@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Snakke &bull; Reading Position Indicator</title>
+  <style>
+    html, body {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      font-size: 62.5%;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .fork-button {
+      position: fixed;
+      top: 5em;
+      right: -9em;
+      padding: .5em 0;
+      display: block;
+      width: 30em;
+      z-index: 100;
+      transform: rotate(45deg);
+      transition: background .5s ease;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #777;
+      background: #eee;
+    }
+
+    .main {
+      height: 100%;
+      background: #333;
+      display: flex;
+    }
+
+    .main-wrapper {
+      margin: auto;
+      text-align: center;
+    }
+
+    .logo {
+      width: 12em;
+      height: 16em;
+      margin: 0 auto;
+      background-image: url('snakke-logo.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100%;
+    }
+
+    .description {
+      font-size: 1.6em;
+      color: #fff;
+      margin: 1em 0 1.8em 0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: .7em 1.8em;
+      margin: 0 .3em;
+      border: 1px solid #ED1651;
+      border-radius: 3px;
+      color: #ED1651;
+      font-size: 1.4em;
+      text-decoration: none;
+      text-transform: uppercase;
+      outline: 0;
+    }
+
+    .button:hover {
+      border-color: #fff;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <a class="fork-button" href="https://github.com/diogomoretti/snakke" target="_blank">Fork me on Github</a>
+  <main class="main">
+    <div class="main-wrapper">
+      <h1 class="logo"></h1>
+      <p class="description">Reading Position Indicator with only ~220B minified</p>
+      <a class="button" href="https://github.com/diogomoretti/snakke/releases" target="_blank">Download</a>
+      <a class="button" href="./demo" target="_blank">Demo</a>
+    </div>
+  </main>
+</body>
+</html>
