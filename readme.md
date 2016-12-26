@@ -5,7 +5,7 @@
 
 - Simple aproach
 - No dependencies
-- Only `~220 bytes` minified
+- `< 1kb` minified
 - [UMD support](https://github.com/umdjs/umd)
 
 ## How to use
