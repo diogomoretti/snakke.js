@@ -10,15 +10,15 @@
 
 ## How to use
 
-1 – Download the [latest version](https://github.com/diogomoretti/snakke/releases)
+1 :heavy_minus_sign: Download the [latest version](https://github.com/diogomoretti/snakke/releases)
 
-2 – Add `snakke.min.js` (`src` folder on `zip` file) before the closing body tag:
+2 :heavy_minus_sign: Add `snakke.min.js` (`src` folder on `zip` file) before the closing body tag:
 
 ```html
 <script src="path/to/snakke.min.js"></script>
 ```
 
-3 – Call Snakke:
+3 :heavy_minus_sign: Call Snakke:
 
 ```html
 <script>
@@ -26,7 +26,7 @@
 </script>
 ```
 
-4 – Add simple rule in your CSS:
+4 :heavy_minus_sign: Add simple rule in your CSS:
 
 ```css
 .snakke-bar {
