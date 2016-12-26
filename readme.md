@@ -2,6 +2,8 @@
   <img src="https://rawgit.com/diogomoretti/snakke/master/_website/snakke-logo.png" alt="Snakke" width="230" />
 </p>
 
+![Build Status](https://travis-ci.org/diogomoretti/snakke.svg?branch=master)
+
 >  Reading Position Indicator written in VanillaJS
 
 ## Features
