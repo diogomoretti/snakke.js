@@ -10,7 +10,7 @@
 
 ## How to use
 
-**1** :heavy_minus_sign: Download the [latest version](https://github.com/diogomoretti/snakke/releases)
+**1** :heavy_minus_sign: Download the [latest release](https://github.com/diogomoretti/snakke/releases)
 
 **2** :heavy_minus_sign: Add `snakke.min.js` (`src` folder on `zip` file) before the closing body tag:
 
@@ -44,6 +44,10 @@
 <hr>
 
 ## Development
+
+:heavy_minus_sign: `gulp server`: Example server to development (Go to [http://localhost:7000/example](http://localhost:7000/example))
+:heavy_minus_sign: `gulp build`: Generate `snakke.min.js`
+:heavy_minus_sign: `gulp tag`: Release a new version
 
 <hr>
 

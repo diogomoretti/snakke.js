@@ -44,6 +44,10 @@ gulp.task('watch', () => {
   gulp.watch('./example/*.{html,css}', ['html'])
 })
 
+gulp.task('build', () => {
+  runSequence('standard', 'minify')
+})
+
 gulp.task('server', () => {
   runSequence('standard', 'connect', 'watch')
 })
