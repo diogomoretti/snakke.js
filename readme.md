@@ -10,15 +10,15 @@
 
 ## How to use
 
-1. Download the [latest version](https://github.com/diogomoretti/snakke/releases)
+1 – Download the [latest version](https://github.com/diogomoretti/snakke/releases)
 
-2. Add `snakke.min.js` (`src` folder on `zip` file) before the closing body tag:
+2 – Add `snakke.min.js` (`src` folder on `zip` file) before the closing body tag:
 
 ```html
 <script src="path/to/snakke.min.js"></script>
 ```
 
-3. Call Snakke:
+3 – Call Snakke:
 
 ```html
 <script>
@@ -26,7 +26,7 @@
 </script>
 ```
 
-4. Add simple rule in your CSS:
+4 – Add simple rule in your CSS:
 
 ```css
 .snakke-bar {
