@@ -45,9 +45,9 @@
 
 ## Development
 
-- `gulp server`: Server to development (Go to [http://localhost:7000/example](http://localhost:7000/example))
-- `gulp build`: Generate `snakke.min.js`
-- `gulp tag`: Release a new version
+- `gulp server` :heavy_minus_sign: Server to development (Go to [http://localhost:7000/example](http://localhost:7000/example))
+- `gulp build` :heavy_minus_sign: Generate `snakke.min.js`
+- `gulp tag` :heavy_minus_sign: Release a new version
 
 <hr>
 
