@@ -12,6 +12,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-minify": "0.0.14",
     "gulp-release-tasks": "0.0.3",
     "gulp-standard": "^8.0.3",

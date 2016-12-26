@@ -3,6 +3,7 @@ const standard = require('gulp-standard')
 const connect = require('gulp-connect')
 const runSequence = require('run-sequence')
 const minify = require('gulp-minify')
+const ghPages = require('gulp-gh-pages')
 require('gulp-release-tasks')(gulp)
 
 gulp.task('connect', () => {
@@ -29,7 +30,6 @@ gulp.task('minify', () => {
     .pipe(gulp.dest('./src'))
 })
 
-
 gulp.task('copy', () => {
   gulp.src('./src/snakke.min.js')
     .pipe(gulp.dest('./_website/demo/'))
@@ -43,6 +43,11 @@ gulp.task('standard', () => {
       quiet: true
     }))
     .pipe(connect.reload())
+})
+
+gulp.task('deploy', () => {
+  gulp.src('./_website/**/*')
+    .pipe(ghPages())
 })
 
 gulp.task('watch', () => {
