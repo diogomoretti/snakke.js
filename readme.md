@@ -45,7 +45,7 @@
 
 ## Development
 
-- `gulp server`: Example server to development (Go to [http://localhost:7000/example](http://localhost:7000/example))
+- `gulp server`: Server to development (Go to [http://localhost:7000/example](http://localhost:7000/example))
 - `gulp build`: Generate `snakke.min.js`
 - `gulp tag`: Release a new version
 
