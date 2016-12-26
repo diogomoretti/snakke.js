@@ -1,4 +1,7 @@
-# Snakke
+<p align="center">
+  <img src="https://rawgit.com/diogomoretti/snakke/master/_website/snakke-logo.png" alt="Snakke" width="230" />
+</p>
+
 >  Reading Position Indicator written in VanillaJS
 
 ## Features
