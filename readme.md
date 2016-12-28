@@ -1,8 +1,9 @@
 <p align="center">
   <img src="https://rawgit.com/diogomoretti/snakke/master/_website/snakke-logo.png" alt="Snakke" width="230" />
 </p>
-
+<hr>
 [![Build Status](https://travis-ci.org/diogomoretti/snakke.svg?branch=master)](https://travis-ci.org/diogomoretti/snakke)
+[![devDependency Status](https://david-dm.org/diogomoretti/snakke/dev-status.svg)](https://david-dm.org/diogomoretti/snakke#info=devDependencies)
 
 >  Reading Position Indicator written in VanillaJS
 
