@@ -3,7 +3,7 @@
 </p>
 <hr>
 [![Build Status](https://travis-ci.org/diogomoretti/snakke.svg?branch=master)](https://travis-ci.org/diogomoretti/snakke)
-[![devDependency Status](https://david-dm.org/diogomoretti/snakke/dev-status.svg)](https://david-dm.org/diogomoretti/snakke#info=devDependencies)
+[![devDependency Status](https://david-dm.org/diogomoretti/snakke/dev-status.svg)](https://david-dm.org/diogomoretti/snakke?type=dev)
 
 >  Reading Position Indicator written in VanillaJS
 
