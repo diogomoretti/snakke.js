@@ -4,6 +4,7 @@
 <hr>
 [![Build Status](https://travis-ci.org/diogomoretti/snakke.svg?branch=master)](https://travis-ci.org/diogomoretti/snakke)
 [![Dependency Status](https://img.shields.io/david/dev/diogomoretti/snakke.svg)](https://david-dm.org/diogomoretti/snakke?type=dev)
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 [![GitHub tag](https://img.shields.io/github/tag/diogomoretti/snakke.svg)](https://github.com/diogomoretti/snakke/releases)
 
 >  Reading Position Indicator written in VanillaJS
