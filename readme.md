@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://rawgit.com/diogomoretti/snakke/master/_website/snakke-logo.png" alt="Snakke" width="230" />
+  <img src="https://camo.githubusercontent.com/4dee5e97525c02e232231a0b7f23422e13191eb3/68747470733a2f2f7261776769742e636f6d2f64696f676f6d6f72657474692f736e616b6b652f6d61737465722f5f776562736974652f736e616b6b652d6c6f676f2e706e67" alt="Snakke" width="230" />
 </p>
 <hr>
 [![Build Status](https://travis-ci.org/diogomoretti/snakke.svg?branch=master)](https://travis-ci.org/diogomoretti/snakke)
