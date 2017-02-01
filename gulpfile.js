@@ -8,14 +8,14 @@ require('gulp-release-tasks')(gulp)
 
 gulp.task('connect', () => {
   connect.server({
-    root: './_website',
+    root: './docs',
     port: 7000,
     livereload: true
   })
 })
 
 gulp.task('html', () => {
-  gulp.src(['./_website/*.html', './_website/demo/*.html'])
+  gulp.src(['./docs/*.html', './docs/demo/*.html'])
     .pipe(connect.reload())
 })
 
@@ -32,7 +32,7 @@ gulp.task('minify', () => {
 
 gulp.task('copy', () => {
   gulp.src('./src/snakke.min.js')
-    .pipe(gulp.dest('./_website/demo/'))
+    .pipe(gulp.dest('./docs/demo/'))
 })
 
 gulp.task('standard', () => {
@@ -46,13 +46,13 @@ gulp.task('standard', () => {
 })
 
 gulp.task('deploy', () => {
-  gulp.src('./_website/**/*')
+  gulp.src('./docs/**/*')
     .pipe(ghPages())
 })
 
 gulp.task('watch', () => {
   gulp.watch('./src/snakke.js', ['build'])
-  gulp.watch('./_website/**/*.{html,css}', ['html'])
+  gulp.watch('./docs/**/*.{html,css}', ['html'])
 })
 
 gulp.task('build', () => {

@@ -1,12 +1,6 @@
-(function (root, factory) {
-  if (typeof define === 'function' && define.amd) { // eslint-disable-line
-    define('snakke', factory) // eslint-disable-line
-  } else if (typeof module === 'object' && module.exports) {
-    module.exports = factory
-  } else {
-    root.snakke = factory
-  }
-}(this, function snakke () {
+(function () {
+  'use strict'
+
   var shouldScroll = true
   var screenHeight = document.documentElement.clientHeight
   var fullHeight = document.body.clientHeight
@@ -59,4 +53,4 @@
   }
 
   init()
-}))
+})()
