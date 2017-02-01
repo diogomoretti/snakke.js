@@ -1,6 +1,6 @@
 {
   "name": "snakke",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Reading Position Indicator written in VanillaJS",
   "main": "./src/snakke.js",
   "scripts": {
@@ -10,8 +10,7 @@
     "url": "https://github.com/diogomoretti/snakke/issues"
   },
   "keywords": [
-    "javascript",
-    "umd"
+    "javascript"
   ],
   "author": {
     "name": "Diogo Moretti",

@@ -14,7 +14,6 @@
 - Simple aproach
 - No dependencies
 - `< 1kb` minified
-- [UMD support](https://github.com/umdjs/umd)
 
 ## How to use
 
@@ -26,15 +25,7 @@
 <script src="path/to/snakke.min.js"></script>
 ```
 
-**3** :heavy_minus_sign: Call Snakke:
-
-```html
-<script>
-  snakke()
-</script>
-```
-
-**4** :heavy_minus_sign: Add simple rule in your CSS:
+**3** :heavy_minus_sign: Add simple rule in your CSS:
 
 ```css
 .snakke-bar {
