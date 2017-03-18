@@ -2,6 +2,7 @@
   <img src="https://cloud.githubusercontent.com/assets/2853428/22005314/4669aaf6-dc49-11e6-9df3-af3db0c0299a.png" alt="Snakke" width="230" />
 </p>
 <hr>
+
 [![Build Status](https://travis-ci.org/diogomoretti/snakke.svg?branch=master)](https://travis-ci.org/diogomoretti/snakke)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 [![GitHub tag](https://img.shields.io/github/tag/diogomoretti/snakke.svg)](https://github.com/diogomoretti/snakke/releases)
