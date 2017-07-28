@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-fixture `Getting Started`
+fixture `Snakke E2E Test`
   .page `../docs/demo/index.html`;
 
 test('Check if div snakke-bar is inserted', async t => {
