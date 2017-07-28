@@ -4,7 +4,7 @@
   "description": "Reading Position Indicator written in VanillaJS",
   "main": "./src/snakke.js",
   "scripts": {
-    "test": "gulp standard && testcafe chrome test/snakke.test.js"
+    "test": "gulp test"
   },
   "bugs": {
     "url": "https://github.com/diogomoretti/snakke/issues"

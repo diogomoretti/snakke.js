@@ -72,5 +72,5 @@ gulp.task('server', () => {
 })
 
 gulp.task('test', () => {
-  runSequence('build', 'testcafe')
+  runSequence('standard', 'testcafe')
 })
