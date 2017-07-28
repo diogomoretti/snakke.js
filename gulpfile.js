@@ -4,6 +4,7 @@ const connect = require('gulp-connect')
 const runSequence = require('run-sequence')
 const minify = require('gulp-minify')
 const ghPages = require('gulp-gh-pages')
+const testcafe = require('gulp-testcafe')
 require('gulp-release-tasks')(gulp)
 
 gulp.task('connect', () => {
@@ -45,6 +46,13 @@ gulp.task('standard', () => {
     .pipe(connect.reload())
 })
 
+gulp.task('testcafe', () => {
+  gulp.src('./test/snakke.test.js')
+    .pipe(testcafe({
+      browsers: ['chrome']
+    }))
+})
+
 gulp.task('deploy', () => {
   gulp.src('./docs/**/*')
     .pipe(ghPages())
@@ -61,4 +69,8 @@ gulp.task('build', () => {
 
 gulp.task('server', () => {
   runSequence('build', 'connect', 'watch')
+})
+
+gulp.task('test', () => {
+  runSequence('build', 'testcafe')
 })
