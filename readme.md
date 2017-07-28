@@ -19,7 +19,7 @@
 
 **1** :heavy_minus_sign: Download the [latest release](https://github.com/diogomoretti/snakke/releases)
 
-**2** :heavy_minus_sign: Add `snakke.min.js` (`src` folder on `zip` file) before the closing body tag:
+**2** :heavy_minus_sign: Add `snakke.min.js` (`src` folder on `zip` file) before the closing `<body>` tag:
 
 ```html
 <script src="path/to/snakke.min.js"></script>
